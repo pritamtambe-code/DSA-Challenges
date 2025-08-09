@@ -1,6 +1,4 @@
-package Arrays;
-
-import org.w3c.dom.ls.LSOutput;
+package Numbers;
 
 public class Biggest_Element_Array {
     public static void main(String[] args) {
