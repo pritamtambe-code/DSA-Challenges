@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class Smallest_Element_Array {
     public static void main(String[] args) {

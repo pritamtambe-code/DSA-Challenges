@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class Count_Even_Numbers {
     public static void main(String[] args) {

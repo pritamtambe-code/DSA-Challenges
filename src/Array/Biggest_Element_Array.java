@@ -1,4 +1,4 @@
-package Numbers;
+package Array;
 
 public class Biggest_Element_Array {
     public static void main(String[] args) {

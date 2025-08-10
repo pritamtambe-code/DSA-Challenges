@@ -1,6 +1,4 @@
-package Arrays;
-
-import org.w3c.dom.ls.LSOutput;
+package Array;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class Reverse_An_Array {
 
