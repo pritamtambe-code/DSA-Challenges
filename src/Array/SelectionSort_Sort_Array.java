@@ -21,5 +21,5 @@ public class SelectionSort_Sort_Array {
             System.out.println(arr[i]);
         }
 
-    }
+    } 
 }
