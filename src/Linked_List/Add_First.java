@@ -24,6 +24,7 @@ class LL {
         head = newNode;
     }
 
+
     public void printlist(){
 
         if(head == null){
