@@ -1,8 +1,8 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+package Linked_List;
 
-class L1 {
+public class Add_Last {
     Node head;
+    int size;
 
     class Node{
         String data;
@@ -15,6 +15,7 @@ class L1 {
     }
     public void addLast(String data){
         Node newNode = new Node(data);
+        size++;
         if(head == null){
             head = newNode;
             return;
@@ -40,19 +41,20 @@ class L1 {
         System.out.print("null");
     }
 
+
     public static void main(String[] args) {
-        L1 list = new L1();
+        Add_Last list = new Add_Last();
         list.addLast("1");
         list.addLast("2");
         list.addLast("4");
         list.addLast("5");
         list.addLast("6");
         list.printlist();
+        System.out.println(list.size);
 
     }
-
 }
 
-    
-    
+
+
 

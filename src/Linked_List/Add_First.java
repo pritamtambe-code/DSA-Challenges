@@ -1,8 +1,9 @@
 package Linked_List;
 
 
-class LL {
+public class Add_First {
     Node head;
+    int size;
 
     class Node {
         String data;
@@ -16,6 +17,7 @@ class LL {
 
     public void addfirst( String data){
         Node newNode = new Node(data);
+        size++;
         if(head == null){
             head = newNode;
             return;
@@ -41,11 +43,12 @@ class LL {
     }
 
     public static void main(String[] args) {
-        LL list = new LL();
+        Add_First list = new Add_First();
         list.addfirst("1");
         list.addfirst("2");
         list.addfirst("3");
         list.printlist();
+        System.out.println(list.size);
 
 
     }
