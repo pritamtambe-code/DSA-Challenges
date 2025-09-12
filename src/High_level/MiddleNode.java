@@ -1,9 +1,9 @@
 package High_level;
 
-// Online Java Compiler
 
 
-public class Reverse_Linkedlist {
+
+public class MiddleNode {
     Node head;
     int size;
 
@@ -44,36 +44,35 @@ public class Reverse_Linkedlist {
         System.out.print("null");
     }
 
-    public void rev(){
-        Node currentNode = head;
-        Node previousNode = null;
-        Node next;
+    public void middle(){
+        Node slow = head;
+        Node fast = head;
 
-        while(currentNode!= null){
-            next = currentNode.next;
-            currentNode.next = previousNode;
-            previousNode = currentNode;
-            currentNode = next;
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        head = previousNode;
+        System.out.print(slow.data);
+
     }
 
 
-
-
     public static void main(String[] args) {
-        Reverse_Linkedlist list = new Reverse_Linkedlist();
+        MiddleNode list = new MiddleNode();
         list.addLast("1");
         list.addLast("2");
         list.addLast("4");
         list.addLast("5");
         list.addLast("6");
+        list.addLast("7");
+        list.addLast("8");
         list.printlist();
-        list.rev();
-        list.printlist();
+        list.middle();
+
 
     }
 }
+
 
 
 
