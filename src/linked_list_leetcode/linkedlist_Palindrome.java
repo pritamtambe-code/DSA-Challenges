@@ -41,7 +41,7 @@ public class linkedlist_Palindrome {
         System.out.print("null");
     }
 
-    public void middle(){
+    public void palindrome(){
         Node slow = head;
         Node fast = head;
 
@@ -81,7 +81,7 @@ public class linkedlist_Palindrome {
         // list.addLast("8");
 
         list.printlist();
-        list.middle();
+        list.palindrome();
 
 
     }
