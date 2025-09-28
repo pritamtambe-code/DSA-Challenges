@@ -2,7 +2,7 @@ package Stream;
 
 import java.util.Arrays;
 
-public class StringPractice_1 {
+public class Convert_Uppercase {
     public static void main(String[] args) {
 
         String[] fruits = {"apple", "banana", "cherry"};

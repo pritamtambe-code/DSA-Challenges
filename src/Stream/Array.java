@@ -2,7 +2,7 @@ package Stream;
 import java.util.Arrays;
 
 public class Array {
-        public static void main(StringPractice_1[] args) {
+        public static void main(Convert_Uppercase[] args) {
 
 
             int[]age = {10,5,5};
